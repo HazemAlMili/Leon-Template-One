@@ -80,24 +80,6 @@ html {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
     }
-
-    .line1 {
-        background-color: var(--main-color);
-        width: calc(100% - 20px);
-        height: 1px;
-        position: relative;
-        left: 10px;
-        top: 627px;
-    }
-
-    .line2 {
-        background-color: var(--main-color);
-        width: calc(100% - 20px);
-        height: 1px;
-        position: relative;
-        left: 10px;
-        top: 1158px;
-    }
 }
 
 
