@@ -1,0 +1,88 @@
+/* Start Variabals */
+:root {
+    --main-color: #10cab7;
+    --secondery-color: #2c4755;
+    --padding: 60px;
+}
+/* End Variabals */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Start Contact */
+.contact {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    background-color: #f6f6f6;
+}
+
+.contact .contact-content .text p:first-child {
+    margin: 10px -15px;
+    color: var(--secondery-color);
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -3px;
+    text-align: center;
+}
+
+
+.contact .contact-content .text p:nth-child(2) {
+    color: var(--main-color);
+    margin: 5px 15px;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -3px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .contact .contact-content .text p:first-child {
+        font-size: 30px;
+        letter-spacing: -2px;
+        margin-left: -5px;
+    }
+
+    .contact .contact-content .text p:nth-child(2) {
+        font-size: 30px;
+        letter-spacing: -1px;
+        margin-left: 15px;
+    }
+}
+
+.contact .contact-content .text p:last-child {
+    color: var(--secondery-color);
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.contact .contact-content .text a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+    color: var(--secondery-color);
+}
+
+.contact .contact-content .text a:hover i {
+    color: var(--main-color);
+}
+
+/* End Contact */
+/* Start Footer */
+
+.footer {
+    background-color: var(--secondery-color);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+.footer .container span {
+    color: var(--main-color);
+}
+
+/* End Footer */

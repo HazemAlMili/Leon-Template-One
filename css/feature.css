@@ -1,0 +1,83 @@
+/* Start Variabals */
+:root {
+    --main-color: #10cab7;
+    --secondery-color: #2c4755;
+    --padding: 60px;
+}
+
+/* End Variabals */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Start Feture */
+.features {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    background-color: #f6f6f6;
+
+}
+
+.container {
+    background-color: transparent;
+}
+
+.features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.features .feat {
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f6f6f6;
+}
+
+.features i {
+    font-size: 40px;
+    color: var(--main-color);
+}
+
+.features h3 {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #7a7272;
+    margin: 10px;
+}
+
+.features p {
+    color: #7a7272;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.features .container {
+    background-color: #f6f6f6;
+}
+
+.features .feat {
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.features .one:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translate(0, -7px);
+}
+
+.features .two:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translate(0, -7px);
+}
+
+.features .three:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translate(0, -7px);
+}
+
+/* End Feture */

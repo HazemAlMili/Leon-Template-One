@@ -1,0 +1,105 @@
+/* Start Variabals */
+:root {
+    --main-color: #10cab7;
+    --secondery-color: #2c4755;
+    --padding: 60px;
+}
+
+/* End Variabals */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Start Portofolio */
+
+.portfolio {
+    padding: var(--padding);
+    background-color: #f6f6f6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.portfolio .p-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+
+.portfolio .project {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.portfolio .project:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translate(0, -7px);
+}
+
+.portfolio .project .text {
+    padding: 20px;
+}
+
+.portfolio .project .text h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--secondery-color);
+
+}
+
+.portfolio .project .text p {
+    font-weight: 350;
+    color: #777;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .portfolio .portfolio-content {
+        flex-direction: column;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    }
+
+    .line1 {
+        background-color: var(--main-color);
+        width: calc(100% - 20px);
+        height: 1px;
+        position: relative;
+        left: 10px;
+        top: 627px;
+    }
+
+    .line2 {
+        background-color: var(--main-color);
+        width: calc(100% - 20px);
+        height: 1px;
+        position: relative;
+        left: 10px;
+        top: 1158px;
+    }
+}
+
+
+
+/* End Portofolio */
