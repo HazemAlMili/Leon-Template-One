@@ -12,9 +12,9 @@ html {
 
 /* Start Landing Section   */
 .landing {
-    background-image: url(/HTML---CSS-Template-One/images/landing.jpg);
+    background-image: url(/images/Landing.jpg);
     background-size: cover;
-    height: calc(100vh - 64px);
+    height: calc(100vh );
     margin: 0;
     position: relative;
 }
