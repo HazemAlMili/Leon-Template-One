@@ -12,7 +12,7 @@ html {
 
 /* Start Landing Section   */
 .landing {
-    background-image: url(/images/Landing.jpg);
+    background-image: url(/Landing.jpg);
     background-size: cover;
     height: calc(100vh );
     margin: 0;
