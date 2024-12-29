@@ -12,9 +12,10 @@ html {
 
 /* Start Landing Section   */
 .landing {
-    background-image: url(/Landing.jpg);
+    background-image: linear-gradient(var(--main-color),
+            rgb(255, 255, 255));
     background-size: cover;
-    height: calc(100vh );
+    height: calc(100vh);
     margin: 0;
     position: relative;
 }
@@ -30,7 +31,7 @@ html {
 }
 
 .landing .intro-text h1 {
-    color: var(--main-color);
+    color: rgb(58, 58, 58);
     margin: 0;
     font-size: 50px;
     font-weight: bold;
@@ -39,6 +40,7 @@ html {
 .landing .intro-text p {
     font-size: 19px;
     line-height: 1.8;
+    color: var(--secondery-color);
 }
 
 /* End Landing Section */
